@@ -1,0 +1,47 @@
+﻿<Window x:Class="WpfPersonel.PersonelCikan"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfPersonel"
+        mc:Ignorable="d"
+        Title="PersonelCikan"
+         Height="540"
+        Width="700"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        WindowStartupLocation="CenterScreen"
+        Background="#FF004C"
+        Loaded="Window_Loaded">
+
+    <Grid>
+        <DataGrid x:Name="MyGrid" Height="262" Margin="95,83,95,0" VerticalAlignment="Top" SelectionChanged="MyGrid_SelectionChanged"/>
+        <StackPanel  Height="178" Margin="166,352,133,0" VerticalAlignment="Top">
+            <StackPanel Margin="5" Orientation="Horizontal">
+                <TextBlock Text="Personel ID:       " Foreground="White" Margin="5"></TextBlock>
+                <TextBox x:Name="txtPersonelID" Margin="10,0" materialDesign:HintAssist.Hint="Personel ID" Foreground="White" Width="250" BorderBrush="White" CaretBrush="Black" SelectionBrush="Black" IsEnabled="False" />
+            </StackPanel>
+            <StackPanel Margin="5" Orientation="Horizontal">
+                <TextBlock Text="Personel Ad:      " Foreground="White" Margin="5"></TextBlock>
+                <TextBox x:Name="txtPersonelAd" Margin="10,0" materialDesign:HintAssist.Hint="Personel Ad" Foreground="White" Width="250" BorderBrush="White" CaretBrush="Black" SelectionBrush="Black" IsEnabled="False" />
+            </StackPanel>
+            <StackPanel Margin="5" Orientation="Horizontal">
+                <TextBlock Text="Personel Soyad:" Foreground="White" Margin="5"></TextBlock>
+                <TextBox x:Name="txtPersonelSoyad" Margin="10,0" materialDesign:HintAssist.Hint="Personel Soyad" Foreground="White" Width="250" BorderBrush="White" CaretBrush="Black" SelectionBrush="Black" IsEnabled="False" />
+            </StackPanel>
+            <StackPanel Margin="100,10,0,10" Orientation="Horizontal" Height="106">
+                <Button x:Name="btnKaydet"  Margin="10"  Content="İşe Geri Al" HorizontalAlignment="Left" VerticalAlignment="Top" Width="107" Height="36" RenderTransformOrigin="0.491,0.5" Click="btnKaydet_Click"/>
+                <Button x:Name="btnTemizle"  Margin="10,10,10,0"  Content="Temizle" HorizontalAlignment="Left" VerticalAlignment="Top" Width="107" Height="36" RenderTransformOrigin="0.491,0.5" Click="btnTemizle_Click"/>
+            </StackPanel>
+
+
+
+        </StackPanel>
+        <Button  HorizontalAlignment="Left" Margin="634,10,0,474" Style="{StaticResource MaterialDesignFloatingActionButton}" Background="{x:Null}"
+                 ToolTip="Close" x:Name="btnExit" Click="btnExit_Click" RenderTransformOrigin="0.464,0.482" >
+            <materialDesign:PackIcon Kind="Close" Foreground="White" Width="30" Height="30"/>
+        </Button>
+
+    </Grid>
+</Window>

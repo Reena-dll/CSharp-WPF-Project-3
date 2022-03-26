@@ -1,0 +1,140 @@
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\obj\Debug\WpfPersonel.csprojAssemblyReference.cache
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\obj\Debug\Giderler.g.cs
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\obj\Debug\Gorevler.g.cs
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\obj\Debug\MainWindow.g.cs
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\obj\Debug\Menu.g.cs
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\obj\Debug\Musteriler.g.cs
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\obj\Debug\PersonelCikan.g.cs
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\obj\Debug\Personeller.g.cs
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\obj\Debug\App.g.cs
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\obj\Debug\WpfPersonel_Content.g.cs
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\obj\Debug\WpfPersonel_MarkupCompile.cache
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\obj\Debug\WpfPersonel_MarkupCompile.lref
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\bin\Debug\WpfPersonel.exe.config
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\bin\Debug\WpfPersonel.exe
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\bin\Debug\WpfPersonel.pdb
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\bin\Debug\DevExpress.Data.Desktop.v20.1.dll
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\bin\Debug\DevExpress.Data.v20.1.dll
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\bin\Debug\DevExpress.Mvvm.v20.1.dll
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\bin\Debug\DevExpress.Pdf.v20.1.Core.dll
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\bin\Debug\DevExpress.Printing.v20.1.Core.dll
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\bin\Debug\DevExpress.Xpf.Core.v20.1.dll
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\bin\Debug\EntityFramework.dll
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\bin\Debug\EntityFramework.SqlServer.dll
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\bin\Debug\MaterialDesignColors.dll
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\bin\Debug\DevExpress.Data.v20.1.xml
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\bin\Debug\DevExpress.Mvvm.v20.1.xml
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\bin\Debug\DevExpress.Printing.v20.1.Core.xml
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\bin\Debug\DevExpress.Xpf.Core.v20.1.xml
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\bin\Debug\EntityFramework.xml
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\bin\Debug\EntityFramework.SqlServer.xml
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\bin\Debug\MaterialDesignColors.pdb
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\bin\Debug\de\DevExpress.Data.v20.1.resources.dll
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\bin\Debug\es\DevExpress.Data.v20.1.resources.dll
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\bin\Debug\ja\DevExpress.Data.v20.1.resources.dll
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\bin\Debug\ru\DevExpress.Data.v20.1.resources.dll
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\bin\Debug\de\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\bin\Debug\es\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\bin\Debug\de\DevExpress.Printing.v20.1.Core.resources.dll
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\bin\Debug\es\DevExpress.Printing.v20.1.Core.resources.dll
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\bin\Debug\ja\DevExpress.Printing.v20.1.Core.resources.dll
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\bin\Debug\ru\DevExpress.Printing.v20.1.Core.resources.dll
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\bin\Debug\de\DevExpress.Xpf.Core.v20.1.resources.dll
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\bin\Debug\es\DevExpress.Xpf.Core.v20.1.resources.dll
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\bin\Debug\ja\DevExpress.Xpf.Core.v20.1.resources.dll
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\bin\Debug\ru\DevExpress.Xpf.Core.v20.1.resources.dll
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\obj\Debug\App.baml
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\obj\Debug\Giderler.baml
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\obj\Debug\Gorevler.baml
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\obj\Debug\MainWindow.baml
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\obj\Debug\Menu.baml
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\obj\Debug\Musteriler.baml
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\obj\Debug\PersonelCikan.baml
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\obj\Debug\Personeller.baml
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\obj\Debug\WpfPersonel.g.resources
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\obj\Debug\WpfPersonel.Properties.Resources.resources
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\obj\Debug\WpfPersonel.csproj.GenerateResource.cache
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\obj\Debug\WpfPersonel.exe.licenses
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\obj\Debug\WpfPersonel.csproj.CoreCompileInputs.cache
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\obj\Debug\WpfPersonel.csproj.CopyComplete
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\obj\Debug\WpfPersonel.exe
+D:\DERS\Görsel Programlama\C#\C# WPF\YusufTaha2\YusufTaha2\obj\Debug\WpfPersonel.pdb
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\bin\Debug\WpfPersonel.exe.config
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\bin\Debug\WpfPersonel.exe
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\bin\Debug\WpfPersonel.pdb
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\bin\Debug\DevExpress.Data.Desktop.v20.1.dll
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\bin\Debug\DevExpress.Data.v20.1.dll
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\bin\Debug\DevExpress.Mvvm.v20.1.dll
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\bin\Debug\DevExpress.Pdf.v20.1.Core.dll
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\bin\Debug\DevExpress.Printing.v20.1.Core.dll
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\bin\Debug\DevExpress.Xpf.Core.v20.1.dll
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\bin\Debug\EntityFramework.dll
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\bin\Debug\MaterialDesignColors.dll
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\bin\Debug\DevExpress.Data.v20.1.xml
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\bin\Debug\DevExpress.Mvvm.v20.1.xml
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\bin\Debug\DevExpress.Printing.v20.1.Core.xml
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\bin\Debug\DevExpress.Xpf.Core.v20.1.xml
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\bin\Debug\EntityFramework.xml
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\bin\Debug\de\DevExpress.Data.v20.1.resources.dll
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\bin\Debug\es\DevExpress.Data.v20.1.resources.dll
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\bin\Debug\ja\DevExpress.Data.v20.1.resources.dll
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\bin\Debug\ru\DevExpress.Data.v20.1.resources.dll
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\bin\Debug\de\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\bin\Debug\es\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\bin\Debug\de\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\bin\Debug\es\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\bin\Debug\ja\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\bin\Debug\ru\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\bin\Debug\de\DevExpress.Xpf.Core.v20.1.resources.dll
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\bin\Debug\es\DevExpress.Xpf.Core.v20.1.resources.dll
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\bin\Debug\ja\DevExpress.Xpf.Core.v20.1.resources.dll
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\bin\Debug\ru\DevExpress.Xpf.Core.v20.1.resources.dll
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\obj\Debug\WpfPersonel.csprojAssemblyReference.cache
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\obj\Debug\Giderler.g.cs
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\obj\Debug\Gorevler.g.cs
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\obj\Debug\MainWindow.g.cs
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\obj\Debug\Menu.g.cs
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\obj\Debug\Musteriler.g.cs
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\obj\Debug\PersonelCikan.g.cs
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\obj\Debug\Personeller.g.cs
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\obj\Debug\App.g.cs
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\obj\Debug\WpfPersonel_Content.g.cs
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\obj\Debug\WpfPersonel_MarkupCompile.cache
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\obj\Debug\WpfPersonel_MarkupCompile.lref
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\obj\Debug\App.baml
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\obj\Debug\Giderler.baml
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\obj\Debug\Gorevler.baml
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\obj\Debug\MainWindow.baml
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\obj\Debug\Menu.baml
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\obj\Debug\Musteriler.baml
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\obj\Debug\PersonelCikan.baml
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\obj\Debug\Personeller.baml
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\obj\Debug\WpfPersonel.g.resources
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\obj\Debug\WpfPersonel.Properties.Resources.resources
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\obj\Debug\WpfPersonel.csproj.GenerateResource.cache
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\obj\Debug\WpfPersonel.exe.licenses
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\obj\Debug\WpfPersonel.csproj.CoreCompileInputs.cache
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\obj\Debug\WpfPersonel.csproj.CopyComplete
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\obj\Debug\WpfPersonel.exe
+C:\Users\Reena\Desktop\Yeni klasör\WpfPersonel\WpfPersonel\obj\Debug\WpfPersonel.pdb

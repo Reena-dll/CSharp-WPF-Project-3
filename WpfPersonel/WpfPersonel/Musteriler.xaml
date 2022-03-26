@@ -1,0 +1,66 @@
+﻿<Window x:Class="WpfPersonel.Musteriler"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfPersonel"
+        mc:Ignorable="d"
+        Title="Musteriler" 
+        Height="600"
+        Width="1396.5"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        WindowStartupLocation="CenterScreen"
+        Background="White"
+        Loaded="Window_Loaded">
+    <Grid Margin="0,0,0,-42">
+        <DataGrid x:Name="dataGrid1" HorizontalAlignment="Left" Height="567" Margin="10,10,0,0" VerticalAlignment="Top" Width="1112" ItemsSource="{Binding}" MinRowHeight="30" ColumnWidth="120" AutoGenerateColumns="True" SelectionChanged="dataGrid1_SelectionChanged" />
+
+
+        <StackPanel HorizontalAlignment="Left" Height="599" Margin="1122,0,0,0" VerticalAlignment="Top" Width="273" Background="LightYellow">
+            <StackPanel Orientation="Horizontal" Margin="10">
+                <TextBlock Text="ID:" Margin="5"></TextBlock>
+                <TextBox x:Name="txtMusteriID" Margin="10,0" materialDesign:HintAssist.Hint="Müşteri İD" Foreground="Black" Width="200" BorderBrush="Black" CaretBrush="White" SelectionBrush="White" IsEnabled="False" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="10">
+                <TextBlock Text="Ad:" Margin="5"></TextBlock>
+                <TextBox x:Name="txtMusteriAd" Margin="10,0" materialDesign:HintAssist.Hint="Müşteri Ad" Foreground="Black" Width="200" BorderBrush="Black" CaretBrush="White" SelectionBrush="White" IsEnabled="True" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="10">
+                <TextBlock Text="Soyad:" Margin="5"></TextBlock>
+                <TextBox x:Name="txtMusteriSoyad" Margin="10,0" materialDesign:HintAssist.Hint="Müşteri Soyad" Foreground="Black" Width="200" BorderBrush="Black" CaretBrush="White" SelectionBrush="White" IsEnabled="True" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="10">
+                <TextBlock Text="Telefon:" Margin="5"></TextBlock>
+                <TextBox x:Name="txtTelefon" Margin="10,0" materialDesign:HintAssist.Hint="Müşteri Telefon" Foreground="Black" Width="200" BorderBrush="Black" CaretBrush="White" SelectionBrush="White" IsEnabled="True" />
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="10">
+                <TextBlock Text="Mail:" Margin="5"></TextBlock>
+                <TextBox x:Name="txtMail" Margin="10,0" materialDesign:HintAssist.Hint="Müşteri Mail" Foreground="Black" Width="200" BorderBrush="Black" CaretBrush="White" SelectionBrush="White" IsEnabled="True" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="10">
+                <TextBlock Text="Şehir:" Margin="5"></TextBlock>
+                <ComboBox  Name="cmbSehir" Width="200" IsEditable="True" IsReadOnly="True" Text="Şehir Seç" BorderBrush="Black" ItemsSource="{Binding}" IsEnabled="True" DisplayMemberPath = "sehir" SelectedValuePath = "id" DropDownClosed="cmbSehir_DropDownClosed"  />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="10">
+                <TextBlock Text="İlçe:" Margin="5,5,20,0"></TextBlock>
+                <ComboBox  Name="cmbIlce" Width="200" IsEditable="True" IsReadOnly="True" Text="İlçe Seç" BorderBrush="Black" ItemsSource="{Binding}" IsEnabled="True" DisplayMemberPath = "sehir" SelectedValuePath = "id"  >
+                </ComboBox>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="10">
+                <TextBlock Text="Adres:" Margin="5"></TextBlock>
+                <RichTextBox  x:Name="rchAdres" Width="200" Height="75" Margin="10,0" materialDesign:HintAssist.Hint="Adres" Foreground="Black" BorderBrush="Black" CaretBrush="White" SelectionBrush="White" IsEnabled="True"></RichTextBox>
+            </StackPanel>
+
+        </StackPanel>
+        <Button x:Name="btnGuncelle" Content="Güncelle" HorizontalAlignment="Left" Margin="1268,437,0,0" VerticalAlignment="Top" Width="107" Height="36" RenderTransformOrigin="0.491,0.5" Click="btnGuncelle_Click"/>
+        <Button x:Name="btnTemizle" Content="Temizle" HorizontalAlignment="Left" Margin="1268,497,0,0" VerticalAlignment="Top" Width="107" Height="36" RenderTransformOrigin="0.491,0.5" Click="btnTemizle_Click"/>
+        <Button x:Name="btnKaydet" Content="Kaydet" HorizontalAlignment="Left" Margin="1143,437,0,0" VerticalAlignment="Top" Width="107" Height="36" RenderTransformOrigin="0.491,0.5" Click="btnKaydet_Click"/>
+        <Button x:Name="btnMüsteriSil" Content="Müşteri Sil" HorizontalAlignment="Left" Margin="1143,497,0,0" VerticalAlignment="Top" Width="107" Height="36" RenderTransformOrigin="0.491,0.5" Click="btnIstenCıkar_Click"/>
+        <Button x:Name="btnGeriGel" Content="Geri Gel" HorizontalAlignment="Left" Margin="1198,551,0,0" VerticalAlignment="Top" Width="125" Height="36" RenderTransformOrigin="1.051,0.743" Click="btnGeriGel_Click"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="YusufTahaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Giderler">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Ay" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="Yil" Type="String" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Name="Elektrik" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Su" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="DogalGaz" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Internet" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Maaslar" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Ekstra" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Notlar" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Hareketler">
+    <Key>
+      <PropertyRef Name="HareketID" />
+    </Key>
+    <Property Name="HareketID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Urun" Type="Int32" />
+    <Property Name="Adet" Type="Int16" />
+    <Property Name="Personel" Type="Byte" />
+    <Property Name="Musteri" Type="Int32" />
+    <Property Name="Fiyat" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Toplam" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Tarih" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Notlar" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="ilceler">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="ilce" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="sehir" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Sehirler" Relationship="Self.FK_ilceler_Sehirler" FromRole="ilceler" ToRole="Sehirler" />
+  </EntityType>
+  <EntityType Name="Musteriler">
+    <Key>
+      <PropertyRef Name="MusteriID" />
+    </Key>
+    <Property Name="MusteriID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MusteriAd" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="MusteriSoyad" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Telefon" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Mail" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Sehir" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="Ilce" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Adres" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="Durum" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="Personeller">
+    <Key>
+      <PropertyRef Name="PersonelID" />
+    </Key>
+    <Property Name="PersonelID" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PersonelAd" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PersonelSoyad" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TC" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="Telefon" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="Mail" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Rutbe" Type="Int16" />
+    <Property Name="Sehir" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Ilce" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Adres" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="KullaniciAdi" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Sifre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Durum" Type="Boolean" />
+    <NavigationProperty Name="PersonelRutbe" Relationship="Self.FK_Personeller_PersonelRutbe" FromRole="Personeller" ToRole="PersonelRutbe" />
+  </EntityType>
+  <EntityType Name="PersonelRutbe">
+    <Key>
+      <PropertyRef Name="RutbeID" />
+    </Key>
+    <Property Name="RutbeID" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Rutbe" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Durum" Type="Boolean" />
+    <NavigationProperty Name="Personeller" Relationship="Self.FK_Personeller_PersonelRutbe" FromRole="PersonelRutbe" ToRole="Personeller" />
+  </EntityType>
+  <EntityType Name="Sehirler">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="sehir" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="ilceler" Relationship="Self.FK_ilceler_Sehirler" FromRole="Sehirler" ToRole="ilceler" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="UrunKategori">
+    <Key>
+      <PropertyRef Name="KategoriID" />
+    </Key>
+    <Property Name="KategoriID" Type="Byte" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="KategoriAd" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Urunler">
+    <Key>
+      <PropertyRef Name="UrunID" />
+    </Key>
+    <Property Name="UrunID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UrunAd" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="UrunKategori" Type="Byte" />
+    <Property Name="Stok" Type="Int32" />
+    <Property Name="GelisFiyat" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="SatisFiyat" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="UrunDetay" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="Durum" Type="Boolean" />
+  </EntityType>
+  <Association Name="FK_ilceler_Sehirler">
+    <End Role="Sehirler" Type="Self.Sehirler" Multiplicity="1" />
+    <End Role="ilceler" Type="Self.ilceler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sehirler">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="ilceler">
+        <PropertyRef Name="sehir" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Personeller_PersonelRutbe">
+    <End Role="PersonelRutbe" Type="Self.PersonelRutbe" Multiplicity="0..1" />
+    <End Role="Personeller" Type="Self.Personeller" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PersonelRutbe">
+        <PropertyRef Name="RutbeID" />
+      </Principal>
+      <Dependent Role="Personeller">
+        <PropertyRef Name="Rutbe" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="YusufTahaEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Giderler" EntityType="Self.Giderler" />
+    <EntitySet Name="Hareketler" EntityType="Self.Hareketler" />
+    <EntitySet Name="ilceler" EntityType="Self.ilceler" />
+    <EntitySet Name="Musteriler" EntityType="Self.Musteriler" />
+    <EntitySet Name="Personeller" EntityType="Self.Personeller" />
+    <EntitySet Name="PersonelRutbe" EntityType="Self.PersonelRutbe" />
+    <EntitySet Name="Sehirler" EntityType="Self.Sehirler" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="UrunKategori" EntityType="Self.UrunKategori" />
+    <EntitySet Name="Urunler" EntityType="Self.Urunler" />
+    <AssociationSet Name="FK_ilceler_Sehirler" Association="Self.FK_ilceler_Sehirler">
+      <End Role="Sehirler" EntitySet="Sehirler" />
+      <End Role="ilceler" EntitySet="ilceler" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Personeller_PersonelRutbe" Association="Self.FK_Personeller_PersonelRutbe">
+      <End Role="PersonelRutbe" EntitySet="PersonelRutbe" />
+      <End Role="Personeller" EntitySet="Personeller" />
+    </AssociationSet>
+    <FunctionImport Name="HareketList" ReturnType="Collection(YusufTahaModel.HareketList_Result)" />
+    <FunctionImport Name="PersonelListe" ReturnType="Collection(YusufTahaModel.PersonelListe_Result)" />
+    <FunctionImport Name="PersonelListeCikan" ReturnType="Collection(YusufTahaModel.PersonelListeCikan_Result)" />
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(YusufTahaModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(YusufTahaModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+    <FunctionImport Name="UrunGetir" ReturnType="Collection(YusufTahaModel.UrunGetir_Result)" />
+  </EntityContainer>
+  <ComplexType Name="HareketList_Result">
+    <Property Type="Int32" Name="HareketID" Nullable="false" />
+    <Property Type="String" Name="UrunAd" Nullable="true" MaxLength="50" />
+    <Property Type="Int16" Name="Adet" Nullable="true" />
+    <Property Type="String" Name="Personel" Nullable="true" MaxLength="101" />
+    <Property Type="String" Name="Müşteri" Nullable="true" MaxLength="61" />
+    <Property Type="Decimal" Name="Fiyat" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="Toplam" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="String" Name="Tarih" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Notlar" Nullable="true" MaxLength="300" />
+  </ComplexType>
+  <ComplexType Name="PersonelListe_Result">
+    <Property Type="Int16" Name="PersonelID" Nullable="false" />
+    <Property Type="String" Name="PersonelAd" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="PersonelSoyad" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="TC" Nullable="true" MaxLength="15" />
+    <Property Type="String" Name="Telefon" Nullable="true" MaxLength="25" />
+    <Property Type="String" Name="Mail" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="Rutbe" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="Sehir" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Ilce" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="Adres" Nullable="true" MaxLength="250" />
+    <Property Type="String" Name="KullaniciAdi" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Sifre" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="PersonelListeCikan_Result">
+    <Property Type="Int16" Name="PersonelID" Nullable="false" />
+    <Property Type="String" Name="PersonelAd" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="PersonelSoyad" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="TC" Nullable="true" MaxLength="15" />
+    <Property Type="String" Name="Telefon" Nullable="true" MaxLength="25" />
+    <Property Type="String" Name="Mail" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="Rutbe" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="Sehir" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Ilce" Nullable="true" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="UrunGetir_Result">
+    <Property Type="Int32" Name="UrunID" Nullable="false" />
+    <Property Type="String" Name="UrunAd" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="KategoriAd" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="Stok" Nullable="true" />
+    <Property Type="Decimal" Name="GelisFiyat" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="SatisFiyat" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="String" Name="UrunDetay" Nullable="true" MaxLength="200" />
+  </ComplexType>
+</Schema>
